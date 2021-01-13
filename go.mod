@@ -1,4 +1,4 @@
-module vaibhav-panmand/fatedier/frp
+module github.com/vaibhav-panmand/frp
 
 go 1.12
 
