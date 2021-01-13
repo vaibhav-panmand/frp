@@ -79,7 +79,7 @@ type ClientConfig struct {
 }
 
 func GetDefaultClientConf() *ClientConfig {
-	return ClientConfig{
+	return &ClientConfig{
 		baseConfig:       getDefaultBaseConf(),
 		oidcClientConfig: getDefaultOidcClientConf(),
 		tokenConfig:      getDefaultTokenConf(),
