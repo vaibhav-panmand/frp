@@ -78,8 +78,8 @@ type ClientConfig struct {
 	tokenConfig
 }
 
-func GetDefaultClientConf() *ClientConfig {
-	return &ClientConfig{
+func GetDefaultClientConf() ClientConfig {
+	return ClientConfig{
 		baseConfig:       getDefaultBaseConf(),
 		oidcClientConfig: getDefaultOidcClientConf(),
 		tokenConfig:      getDefaultTokenConf(),
