@@ -15,18 +15,24 @@
 package frpclib
 
 import (
-	"math/rand"
-	"time"
+        "math/rand"
+        "time"
 
-	_ "github.com/vaibhav-panmand/frp/assets/frpc/statik"
-	"github.com/vaibhav-panmand/frp/cmd/frpc/sub"
+        _ "github.com/vaibhav-panmand/frp/assets/frpc/statik"
+        "github.com/vaibhav-panmand/frp/cmd/frpc/sub"
 
-	"github.com/fatedier/golib/crypto"
+        "github.com/fatedier/golib/crypto"
 )
 
 func main() {
-	crypto.DefaultSalt = "frp"
-	rand.Seed(time.Now().UnixNano())
+        crypto.DefaultSalt = "frp"
+        sub.Execute()
+}
 
-	sub.Execute()
+
+func Run() {
+        crypto.DefaultSalt = "frp"
+        rand.Seed(time.Now().UnixNano())
+        sub.RunClient(cfgFilePath)
+
 }
