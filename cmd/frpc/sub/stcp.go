@@ -18,8 +18,8 @@ import (
 	"fmt"
 	"os"
 
-	"github.com/fatedier/vaibhav-panmand/pkg/config"
-	"github.com/fatedier/vaibhav-panmand/pkg/consts"
+	"github.com/vaibhav-panmand/pkg/config"
+	"github.com/vaibhav-panmand/pkg/consts"
 
 	"github.com/spf13/cobra"
 )
