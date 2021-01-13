@@ -1,4 +1,4 @@
-module vaibhav.panmand/fatedier/frp
+module vaibhav-panmand/fatedier/frp
 
 go 1.12
 
