@@ -26,7 +26,7 @@ import (
 
 	"github.com/fatedier/frp/pkg/util/xlog"
 
-	gnet "github.com/fatedier/golib/net"
+	gnet "github.com/vaibhav-panmand/golib/net"
 	kcp "github.com/fatedier/kcp-go"
 )
 

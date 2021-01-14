@@ -24,7 +24,7 @@ import (
 	"github.com/fatedier/frp/pkg/util/tcpmux"
 	"github.com/fatedier/frp/pkg/util/vhost"
 
-	gerr "github.com/fatedier/golib/errors"
+	gerr "github.com/vaibhav-panmand/golib/errors"
 )
 
 // TCPMuxGroupCtl manage all TCPMuxGroups

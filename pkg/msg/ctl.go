@@ -17,7 +17,7 @@ package msg
 import (
 	"io"
 
-	jsonMsg "github.com/fatedier/golib/msg/json"
+	jsonMsg "github.com/vaibhav-panmand/golib/msg/json"
 )
 
 type Message = jsonMsg.Message

@@ -18,7 +18,7 @@ import (
 	"github.com/fatedier/frp/tests/mock"
 	"github.com/fatedier/frp/tests/util"
 
-	gnet "github.com/fatedier/golib/net"
+	gnet "github.com/vaibhav-panmand/golib/net"
 )
 
 func TestMain(m *testing.M) {

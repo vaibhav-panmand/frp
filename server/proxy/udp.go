@@ -27,8 +27,8 @@ import (
 	frpNet "github.com/fatedier/frp/pkg/util/net"
 	"github.com/fatedier/frp/server/metrics"
 
-	"github.com/fatedier/golib/errors"
-	frpIo "github.com/fatedier/golib/io"
+	"github.com/vaibhav-panmand/golib/errors"
+	frpIo "github.com/vaibhav-panmand/golib/io"
 )
 
 type UDPProxy struct {

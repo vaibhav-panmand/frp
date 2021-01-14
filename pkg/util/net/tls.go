@@ -20,7 +20,7 @@ import (
 	"net"
 	"time"
 
-	gnet "github.com/fatedier/golib/net"
+	gnet "github.com/vaibhav-panmand/golib/net"
 )
 
 var (

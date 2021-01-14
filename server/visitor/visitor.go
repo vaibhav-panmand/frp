@@ -23,7 +23,7 @@ import (
 	frpNet "github.com/fatedier/frp/pkg/util/net"
 	"github.com/fatedier/frp/pkg/util/util"
 
-	frpIo "github.com/fatedier/golib/io"
+	frpIo "github.com/vaibhav-panmand/golib/io"
 )
 
 // Manager for visitor listeners.

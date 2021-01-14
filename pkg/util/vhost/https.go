@@ -21,8 +21,8 @@ import (
 	"strings"
 	"time"
 
-	gnet "github.com/fatedier/golib/net"
-	"github.com/fatedier/golib/pool"
+	gnet "github.com/vaibhav-panmand/golib/net"
+	"github.com/vaibhav-panmand/golib/pool"
 )
 
 const (
