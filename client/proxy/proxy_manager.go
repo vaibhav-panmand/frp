@@ -11,7 +11,7 @@ import (
 	"github.com/fatedier/frp/pkg/msg"
 	"github.com/fatedier/frp/pkg/util/xlog"
 
-	"github.com/fatedier/golib/errors"
+	"github.com/vaibhav-panmand/golib/errors"
 )
 
 type Manager struct {

@@ -11,8 +11,8 @@ import (
 	"github.com/fatedier/frp/pkg/util/log"
 	"github.com/fatedier/frp/pkg/util/util"
 
-	"github.com/fatedier/golib/errors"
-	"github.com/fatedier/golib/pool"
+	"github.com/vaibhav-panmand/golib/errors"
+	"github.com/vaibhav-panmand/golib/pool"
 )
 
 // Timeout seconds.

@@ -25,7 +25,7 @@ import (
 	"github.com/fatedier/frp/pkg/util/vhost"
 	"github.com/fatedier/frp/server/metrics"
 
-	frpIo "github.com/fatedier/golib/io"
+	frpIo "github.com/vaibhav-panmand/golib/io"
 )
 
 type HTTPProxy struct {

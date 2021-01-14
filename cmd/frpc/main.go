@@ -21,7 +21,7 @@ import (
         _ "github.com/vaibhav-panmand/frp/assets/frpc/statik"
         "github.com/vaibhav-panmand/frp/cmd/frpc/sub"
 
-        "github.com/fatedier/golib/crypto"
+        "github.com/vaibhav-panmand/golib/crypto"
 )
 
 func main() {

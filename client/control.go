@@ -32,8 +32,8 @@ import (
 	frpNet "github.com/fatedier/frp/pkg/util/net"
 	"github.com/fatedier/frp/pkg/util/xlog"
 
-	"github.com/fatedier/golib/control/shutdown"
-	"github.com/fatedier/golib/crypto"
+	"github.com/vaibhav-panmand/golib/control/shutdown"
+	"github.com/vaibhav-panmand/golib/crypto"
 	fmux "github.com/hashicorp/yamux"
 )
 

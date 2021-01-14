@@ -36,9 +36,9 @@ import (
 	"github.com/fatedier/frp/server/metrics"
 	"github.com/fatedier/frp/server/proxy"
 
-	"github.com/fatedier/golib/control/shutdown"
-	"github.com/fatedier/golib/crypto"
-	"github.com/fatedier/golib/errors"
+	"github.com/vaibhav-panmand/golib/control/shutdown"
+	"github.com/vaibhav-panmand/golib/crypto"
+	"github.com/vaibhav-panmand/golib/errors"
 )
 
 type ControlManager struct {
